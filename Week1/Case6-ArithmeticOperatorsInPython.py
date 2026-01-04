@@ -5,7 +5,7 @@ b = 2
 print ('Sum: ', a + b)  
 
 # subtraction
-print ('Subtraction: ', a - b)   
+print ('Subtraction: ', a - b) 
 
 # multiplication
 print ('Multiplication: ', a * b)  
