@@ -5,7 +5,7 @@ import csv
 
 url = "http://www.values.com/inspirational-quotes"
 
-cService = webdriver.ChromeService(executable_path='C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe') # '/Users/bpfalz/Downloads/chromedriver' for my macbook
+cService = webdriver.ChromeService(executable_path="C:\\Users\\hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe") # '/Users/bpfalz/Downloads/chromedriver' for my macbook
 driver = webdriver.Chrome(service=cService)
 
 driver.get(url)
@@ -21,7 +21,7 @@ for p in range(len(qoutesDiv) -1):
     quote['url'] = innera.get_attribute('href')
     qouestList.append(quote)
 
-filename = 'Week4/inspirational_quotesMethod2.csv'
+filename = 'Week6/inspirational_quotesMethod2.csv'
 with open(filename, 'w', newline='') as f:
     w = csv.DictWriter(f,['url','img','lines','author'])
     w.writeheader()

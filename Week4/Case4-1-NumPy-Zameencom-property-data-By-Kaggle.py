@@ -90,8 +90,7 @@ print("Zameen.com Price - div - pie   -Inverse Hyperbolic Cosine values:", acosh
 
 
 #Zameen.com Long Plus Lat - 2 dimentional arrary
-D2LongLat = np.array([long,
-                  lat])
+D2LongLat = np.array([long,lat])
 
 print ("Zameen.com Long Plus Lat - 2 dimentional arrary - " ,D2LongLat)
 
